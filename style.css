@@ -26,7 +26,7 @@ section{
     flex-direction: column;
     
 }
-.intro h1{
+.inicio h1{
     font-family: 'Luckiest Guy', cursive;
     color: white;
     letter-spacing: 1px;
@@ -38,7 +38,7 @@ section{
 
     
 }
-.intro p {
+.inicio p {
     width: 700px; 
     color: white;
     font-size: 1rem;
@@ -86,7 +86,7 @@ p {
     width: 330px;
     
 }
-.make-space{
+.parte1{
     display: flex;
     flex-direction: row;
     margin: 20px auto;
@@ -94,10 +94,10 @@ p {
     gap: 150px;
     padding: 100px 0;
 }
-.make-space .container{
+.parte1 .container{
     justify-content: center;
 }
-.easy-to-find{
+.parte2{
     display: flex;
     flex-direction: row-reverse;
     margin: auto;
@@ -106,10 +106,10 @@ p {
     gap: 150px;
     padding: 100px 0;
 }
-.easy-to-find .container{
+.parte2 .container{
     justify-content: center;
 }
-.roles{
+.parte3{
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -117,13 +117,13 @@ p {
     gap: 150px;
     padding: 100px 0;
 }
-.roles .container{
+.parte3 .container{
     justify-content: center;
 }
-.security{
+.parte4{
     padding: 80px 0;
 }
-.security h1{
+.parte4 h1{
     font-family: 'Luckiest Guy', cursive;
     color: #23272A;
     width: 570px;
@@ -132,12 +132,12 @@ p {
     align-self: center;
     font-size: 3rem;
 }
-.security p{
+.parte4 p{
     text-align: center;
     width: 800px;
     margin: auto;
 }
-.security img{
+.parte4 img{
     margin-bottom: 40px;
     width: 1100px;
     height: 700px;
@@ -180,7 +180,7 @@ footer{
         display: flex;
         flex-direction: column;
     }
-    .intro h1{
+    .inicio h1{
         font-family: 'Luckiest Guy', cursive;
         color: white;
         letter-spacing: 1px;
@@ -192,7 +192,7 @@ footer{
     
         
     }
-    .intro p {
+    .inicio p {
         width: 515px; /* ou remova essa propriedade para que o parágrafo ocupe a largura total disponível */
         color: white;
         font-size: .75rem;
@@ -240,7 +240,7 @@ footer{
         width: 310px;
         
     }
-    .make-space{
+    .parte1{
         display: flex;
         flex-direction: row;
         margin: auto;
@@ -248,30 +248,30 @@ footer{
         gap: 80px;
     }
     
-    .easy-to-find{
+    .parte2{
         display: flex;
         flex-direction: row-reverse;
         margin: auto;
         margin-top: 16px;
         gap: 50px;
     }
-    .easy-to-find .container{
+    .parte2 .container{
         justify-content: center;
     }
-    .roles{
+    .parte3{
         display: flex;
         flex-direction: row;
         margin: auto;
         gap: 40px;
     }
-    .roles .container{
+    .parte3 .container{
         justify-content: center;
     }
-    .security{
+    .parte4{
         padding: 30px 0;
         gap: 10px;
     }
-    .security h1{
+    .parte4 h1{
         font-family: 'Luckiest Guy', cursive;
         color: #23272A;
         width: 376px;
@@ -280,12 +280,12 @@ footer{
         align-self: center;
         font-size: 1.5rem;
     }
-    .security p{
+    .parte4 p{
         text-align: center;
         width: auto;
         padding: 10px;
     }
-    .security img{
+    .parte4 img{
         margin-bottom: 40px;
         margin-top: 10px;
         width: 640px;
@@ -330,7 +330,7 @@ footer{
         display: flex;
         flex-direction: column;
     }
-    .intro h1{
+    .inicio h1{
         font-family: 'Luckiest Guy', cursive;
         color: white;
         letter-spacing: 1px;
@@ -386,38 +386,38 @@ footer{
         margin: 0 20px;
         max-width: 370px;
     }
-    .make-space{
+    .parte1{
         display: flex;
         flex-direction: column;
         padding: 30px 0;
         gap: 10px;
         
     }
-    .easy-to-find{
+    .parte2{
         display: flex;
         flex-direction: column;
         padding: 30px 0;
         gap: 10px;
     }
-    .roles{
+    .parte3{
         display: flex;
         flex-direction: column;
         margin: auto;
         padding: 30px 0;
         gap: 10px;
     }
-    .security{
+    .parte4{
         padding: 30px 0;
         gap: 10px;
     }
-    .security h1{
+    .parte4 h1{
         font-family: 'Luckiest Guy', cursive;
         color: #23272A;
         width: 376px;
         margin: 27px 20px;
         font-size: 1.5rem;
     }
-    .security img{
+    .parte4 img{
         margin-bottom: 40px;
         width: 340px;
         height: 252px;
