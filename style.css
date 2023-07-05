@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;800&family=Press+Start+2P&family=Raleway:wght@400;600;700;900&family=Roboto:wght@400;500;700;900&display=swap');
+*{
+
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    box-sizing: border-box;
+    max-width: auto;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 506px;
+    background-image: url(imagens/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right ;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    
+}
+section{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.intro h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    letter-spacing: 1px;
+    margin: 70px 0 0 24px;
+    align-self: center;
+    font-size: 3.5rem;
+    text-align: center;
+    width: 100%;
+
+    
+}
+.intro p {
+    width: 700px; 
+    color: white;
+    font-size: 1rem;
+    padding: 24px;
+    align-self: center;
+    text-align: center;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 80px;
+}
+.button button{
+    align-self: center;
+    width: 280px;
+    border: none;
+    border-radius: 28px;
+    background: #FFF;
+    padding: 16px;
+    
+}
+#button2{
+    color: white;
+    background-color: #23272A;
+}
+img{
+    margin-top: 40px;
+    width: 650px;
+    align-self: center;
+}
+h2{
+    color: #23272A;
+    font-size: 2.5rem;
+    font-weight: 800;
+    max-width: 355px;
+    margin: 27px 20px;
+    
+}
+p {
+    color: #23272A;
+    font-size: 1rem;
+    padding: 0 0 40px;
+    margin: 0 20px;
+    width: 330px;
+    
+}
+.make-space{
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    justify-content: center;
+    gap: 150px;
+    padding: 100px 0;
+}
+.make-space .container{
+    justify-content: center;
+}
+.easy-to-find{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    margin-top: 16px;
+    justify-content: center;
+    gap: 150px;
+    padding: 100px 0;
+}
+.easy-to-find .container{
+    justify-content: center;
+}
+.roles{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    gap: 150px;
+    padding: 100px 0;
+}
+.roles .container{
+    justify-content: center;
+}
+.security{
+    padding: 80px 0;
+}
+.security h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: #23272A;
+    width: 570px;
+    margin: 27px 20px;
+    text-align: center;
+    align-self: center;
+    font-size: 3rem;
+}
+.security p{
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+.security img{
+    margin-bottom: 40px;
+    width: 1100px;
+    height: 700px;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    height: 140px;
+    background-color: #23272A;
+    background-image: url(imagens/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+@media screen and (max-width:845px){
+    body{
+        box-sizing: border-box;
+        max-width: 844px;
+        margin: 0;
+    }
+    header{
+        width: 844px;
+        height: 506px;
+        background-image: url(imagens/background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom right ;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        
+    }
+    section{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .intro h1{
+        font-family: 'Luckiest Guy', cursive;
+        color: white;
+        letter-spacing: 1px;
+        margin: 70px 0 0 24px;
+        align-self: center;
+        font-size: 2.5rem;
+        text-align: center;
+        width: 100%;
+    
+        
+    }
+    .intro p {
+        width: 515px; /* ou remova essa propriedade para que o parágrafo ocupe a largura total disponível */
+        color: white;
+        font-size: .75rem;
+        padding: 24px;
+        align-self: center;
+        text-align: center;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 80px;
+    }
+    .button button{
+        align-self: center;
+        width: 280px;
+        border: none;
+        border-radius: 28px;
+        background: #FFF;
+        padding: 16px;
+        
+    }
+    #button2{
+        color: white;
+        background-color: #23272A;
+    }
+    img{
+        margin-top: 40px;
+        width: 430px;
+        align-self: center;
+    }
+    h2{
+        color: #23272A;
+        font-size: 1.5rem;
+        font-weight: 800;
+        max-width: 190px;
+        margin: 27px 20px;
+        
+    }
+    p {
+        color: #23272A;
+        font-size: .80rem;
+        padding: 0 0 40px;
+        margin: 0 20px;
+        width: 310px;
+        
+    }
+    .make-space{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-top: 16px;
+        gap: 80px;
+    }
+    
+    .easy-to-find{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: auto;
+        margin-top: 16px;
+        gap: 50px;
+    }
+    .easy-to-find .container{
+        justify-content: center;
+    }
+    .roles{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        gap: 40px;
+    }
+    .roles .container{
+        justify-content: center;
+    }
+    .security{
+        padding: 30px 0;
+        gap: 10px;
+    }
+    .security h1{
+        font-family: 'Luckiest Guy', cursive;
+        color: #23272A;
+        width: 376px;
+        margin: 27px 20px;
+        text-align: center;
+        align-self: center;
+        font-size: 1.5rem;
+    }
+    .security p{
+        text-align: center;
+        width: auto;
+        padding: 10px;
+    }
+    .security img{
+        margin-bottom: 40px;
+        margin-top: 10px;
+        width: 640px;
+        height: 452px;
+
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer{
+        height: 140px;
+        background-color: #23272A;
+        background-image: url(imagens/logo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    
+}
+@media screen and (max-width:391px){
+    body{
+        box-sizing: border-box;
+        max-width: 390px;
+        margin: 0;
+    }
+    header{
+        width: 390px;
+        height: 506px;
+        background-image: url(imagens/background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom right ;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        
+    }
+    section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .intro h1{
+        font-family: 'Luckiest Guy', cursive;
+        color: white;
+        letter-spacing: 1px;
+        margin: 70px 126px 0 24px;
+        font-size: 2rem;
+        text-align: left;
+        width: 200px;
+        
+    }
+    header p {
+        color: white;
+        font-size: 1rem;
+        padding: 24px;
+    }
+    .button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+        
+    }
+    .button button{
+        align-self: center;
+        width: 280px;
+        border: none;
+        border-radius: 28px;
+        background: #FFF;
+        padding: 16px;
+        
+    }
+    #button2{
+        color: white;
+        background-color: #23272A;
+    }
+    
+    img{
+        margin-top: 40px;
+        width: 340px;
+        align-self: center;
+    }
+    h2{
+        color: #23272A;
+        font-size: 1.5rem;
+        font-weight: 800;
+        max-width: 370px;
+        margin: 27px 20px;
+        
+    }
+    p {
+        color: #23272A;
+        font-size: .80rem;
+        padding: 0 0 40px;
+        margin: 0 20px;
+        max-width: 370px;
+    }
+    .make-space{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0;
+        gap: 10px;
+        
+    }
+    .easy-to-find{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0;
+        gap: 10px;
+    }
+    .roles{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 30px 0;
+        gap: 10px;
+    }
+    .security{
+        padding: 30px 0;
+        gap: 10px;
+    }
+    .security h1{
+        font-family: 'Luckiest Guy', cursive;
+        color: #23272A;
+        width: 376px;
+        margin: 27px 20px;
+        font-size: 1.5rem;
+    }
+    .security img{
+        margin-bottom: 40px;
+        width: 340px;
+        height: 252px;
+    }
+    footer{
+        height: 140px;
+        background-color: #23272A;
+        background-image: url(imagens/logo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    
+}
+
+
+  
