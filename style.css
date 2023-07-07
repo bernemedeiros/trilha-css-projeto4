@@ -193,7 +193,7 @@ footer{
         
     }
     .inicio p {
-        width: 515px; /* ou remova essa propriedade para que o parágrafo ocupe a largura total disponível */
+        width: 515px; 
         color: white;
         font-size: .75rem;
         padding: 24px;
